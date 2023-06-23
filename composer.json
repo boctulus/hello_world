@@ -1,12 +1,20 @@
 {
     "name": "boctulus/hello_world",
-    "description": "Composer test",
+    "description": "Composer hello world",
+    "type": "library",
     "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "simplerest\\HelloWorld\\": "src/"
+        }
+    },
     "authors": [
         {
-            "name": "boctulus",
+            "name": "Pablo Bozzolo",
             "email": "boctulus@gmail.com"
         }
     ],
-    "require": {}
+    "keywords": ["composer", "test"],
+    "require": {},
+    "require-dev": {}
 }
