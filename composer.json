@@ -1,0 +1,12 @@
+{
+    "name": "boctulus/hello_world",
+    "description": "Composer test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "boctulus",
+            "email": "boctulus@gmail.com"
+        }
+    ],
+    "require": {}
+}
