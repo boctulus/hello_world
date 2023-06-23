@@ -2,6 +2,7 @@
     "name": "boctulus/hello_world",
     "description": "Composer hello world",
     "type": "library",
+    "version": "1.0.0",
     "license": "MIT",
     "autoload": {
         "psr-4": {

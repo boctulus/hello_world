@@ -13,7 +13,7 @@ class HelloServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        print_r("Initing Greeting service");
+        dd("Initing Greeting service");
     }
 
     /**
@@ -23,6 +23,6 @@ class HelloServiceProvider extends ServiceProvider
      */
     public function register()
     {
-       
+        dd("Registering " . __CLASS__);
     }    
 }
